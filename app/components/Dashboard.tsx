@@ -36,27 +36,31 @@ export default function Dashboard() {
           {/* Dashboard Cards */}
          <div className="grid md:grid-cols-4 gap-6">
 
-  <div className="bg-black dark:bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+  <div className="bg-zinc-100
+border border-zinc-200
+
+dark:bg-zinc-900
+dark:border-zinc-800 rounded-2xl p-6">
     <FolderKanban className="text-purple-500 mb-4" />
-    <p className="text-zinc-400">Projects</p>
+    <p className="text-zinc-500 dark:text-zinc-400">Projects</p>
     <h2 className="text-4xl font-bold">124</h2>
   </div>
 
   <div className="bg-black dark:bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
     <CheckCircle className="text-green-500 mb-4" />
-    <p className="text-zinc-400">Completed</p>
+    <p className="text-zinc-500 dark:text-zinc-400">Completed</p>
     <h2 className="text-4xl font-bold">4.8K</h2>
   </div>
 
   <div className="bg-black dark:bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
     <TrendingUp className="text-blue-500 mb-4" />
-    <p className="text-zinc-400">Growth</p>
+    <p className="text-zinc-500 dark:text-zinc-400">Growth</p>
     <h2 className="text-4xl font-bold">+43%</h2>
   </div>
 
   <div className="bg-black dark:bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
     <Bell className="text-yellow-500 mb-4" />
-    <p className="text-zinc-400">Alerts</p>
+    <p className="text-zinc-500 dark:text-zinc-400">Alerts</p>
     <h2 className="text-4xl font-bold">12</h2>
   </div>
 

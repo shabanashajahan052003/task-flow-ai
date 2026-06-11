@@ -28,14 +28,19 @@ export default function Testimonials() {
           <div
             key={review.author}
             className="
-              bg-zinc-950
-              border
-              border-zinc-800
+             bg-white
+text-black
+border
+border-zinc-200
+
+dark:bg-zinc-950
+dark:text-white
+dark:border-zinc-800
               rounded-3xl
               p-8
             "
           >
-            <p className="text-xl text-zinc-300 mb-6">
+            <p className="text-xl text-zinc-600 dark:text-zinc-400 mb-6">
               "{review.quote}"
             </p>
 
